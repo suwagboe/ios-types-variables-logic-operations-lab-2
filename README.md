@@ -22,9 +22,18 @@ var grade3 = 5.0
 
 // your code here
 ```
+```
+var yourGrade: Double = 10
+ 
+ if yourGrade > 9 {
+ print("above average")
+ } else {
+ print ("below average")
+}
+```
 
 ***
-## Question 2
+## Question 2 (LOOK OVER THIS ONE)
 
 You are given a number. Print even if the number is even or odd otherwise.
 
@@ -32,6 +41,13 @@ You are given a number. Print even if the number is even or odd otherwise.
 let number = 2
 
 // your code here
+```
+
+if number / 2==1  {
+print ("even")
+} else{
+    ("odd")}
+```
 ```
 
 ***
@@ -44,6 +60,12 @@ var a = 12
 var b = 3
 
 // code here
+```
+```
+if a % b == 0 {
+print ("divisible")
+} else {"not divisible"}
+
 ```
 
 ***
@@ -58,6 +80,17 @@ var c = 2
 
 // your code here
 ```
+```
+    if a == b {
+        print("At least two variables have the same value")
+    } else if b == c {
+        print("At least two variables have the same value")
+    } else if c == a {
+        print("At least two variables have the same value")
+    } else {
+        print("All the values are different")
+    }
+```
 
 ***
 ## Question 5
@@ -70,9 +103,16 @@ var eggsAge = 12 // eggs are 12 days old
 
 // your code here
 ```
-
+```
+if baconAge < 7 && eggsAge <21 {
+print ("you can cook bacon and eggs")
+}
+else {
+print("throw out")
+}
+```
 ***
-## Question 6
+## Question 6 (LOOK OVER)
 
 You are given a year, determine if it’s a leap year. A leap year is a year containing an extra day. It has 366 days instead of the normal 365 days. The extra day is added in February, which has 29 days instead of the normal 28 days. Leap years occur every 4 years. 2012 was a leap year and 2016 will also be a leap year.
 The above rule is valid except that every 100 years special rules apply. Years that are divisible by 100 are not leap years if they are not also divisible by 400. For example 1900 was not a leap year, but 2000 was. Print `"Leap year!"` or `"Not a leap year!"` depending on the year you are provided.
@@ -84,7 +124,7 @@ let year = 2014
 ```
 
 ***
-## Question 7
+## Question 7 (HELP)
 
 If you use `random()` it will give you a random number within a specified range. Generate a random number and use it to simulate a coin toss. Print `"heads"` or `"tails"`.
 
@@ -93,6 +133,12 @@ let randomNum = Int.random(in: 0...100)
 
 // your code here
 ```
+if randomNum % 2 {
+print ("heads")
+}
+else {
+(print"tails")
+}
 
 Hint: use an if/else block along with the `%` operator
 
@@ -109,6 +155,11 @@ var d = 4
 
 // your code here
 ```
+```
+if a >= b {
+print 
+}
+```
 
 ***
 ## Question 9
@@ -120,7 +171,9 @@ a. 3 == 2 || 9 == 9
 b. !(3 > 3)
 c. !(true || false)
 d. (4 < 3 || 4 > 3) && ("Message: " == "Message: ")
+```True```
 e. !(3 != 3)
+``` true```
 
 ```
 
@@ -137,11 +190,15 @@ Given the below, which of the following expressions evaluate to true?
 
 ```swift
 a. x && y
+```false```
 b. x || y || z == 1
+```false```
 c. ("five" == "5" || "FIVE" == "five" || 5 == 3 + 2) && !y
+```false ```
 d. (x && y) || z > 6
+```false ```
 e. !(z < 6) && !y && !x
-
+```false ```
 ```
 
 
@@ -152,8 +209,11 @@ What is true about Integers in computers?
 
 ```swift
 a. Integers must have a positive or negative sign always.
+```true  ```
 b. The maximum value for Integers is +∞.
+```true ```
 c. Integer types in computers take up a fixed amount of memory.
+```true```
 d. Integers may contain decimals.
 
 ```
@@ -169,7 +229,9 @@ a. let numberOfPages: Int = 500
 b. let numberOfChapters = "For Whom The Bell Tolls"
 c. let nameOfBook: Int = 14
 d. let yearPublished = "Nineteen-thirty-five"
-
+```
+They will all compile
+```
 ```
 
 ***
@@ -191,6 +253,14 @@ b %= c
 
 print(a + b + c)
 
+```
+```
+20 + 5 = 25
+5-4 = 1
+5 * (4 + 20)= 120
+(5 + 4) + 20 = 29
+5 %=20 =
+5 %=4 = 1
 ```
 
 ***
@@ -220,8 +290,11 @@ What is true about the variable n?
 
 ```swift
 a. n is a Float
+```true ```
 b. n is a Double
+``` true```
 c. n is a Decimal
+```True ```
 d. In is an Int
 
 ```
